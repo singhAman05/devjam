@@ -1,0 +1,84 @@
+/* styling body */
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+/* styling nav bar */
+  .navbar {
+    display: flex;
+    position: sticky;
+    background-color: black;
+  }
+  .nav-list {
+    margin: 1rem;
+  
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-list li {
+    list-style: none;
+  }
+  .nav-list li a {
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .nav-list li a:hover {
+    color: yellow;
+    transition: 0.3s;
+  }
+  .rightnav {
+    margin: 1rem;
+    width: 50%;
+    text-align: right;
+  }
+
+  /* styling contact us section */
+  .abt .inf{
+      
+      width: 100%;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      padding-top: 5rem;
+      align-items: center;
+      background-color: grey;
+  
+  }
+  .abt .inf h1{
+      margin: 3rem;
+      font-size: 2rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: black;
+      text-decoration: underline;
+      font-weight: bold;
+      
+  }
+  .abt .inf h2{
+      padding-bottom: 2rem;
+      font-size: 1.8rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: black;
+  
+  }
+  .abt .inf li{
+      padding: 1.2rem;
+      font-size: 1.4rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: white;
+      transition: all .2s ease-in-out; 
+  }
+  .abt .inf li:hover{
+      transform: scale(1.1);
+  }
+  .abt .inf p{
+      padding-top: 2rem;
+      size: 1.5rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: white;
+  }
+  
+  /* end of code */

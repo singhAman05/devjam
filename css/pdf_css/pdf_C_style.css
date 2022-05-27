@@ -1,0 +1,148 @@
+/* styling body */
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/blackboard.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* styling the container */
+.container{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    background: #dddcdc;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 6px 6px 10px 0px rgb(41, 191, 211);
+}
+.container > h1{
+    font-family: 'Satisfy';
+    font-size: 400%;
+    color: rgb(252, 143, 0);
+    text-decoration: underline solid rgb(63, 63, 63);
+    
+}
+.container > h3{
+    font-family: "Macondo";
+    font-size: 250%;
+    color: rgb(9, 85, 104);
+    text-decoration: underline solid rgb(10, 188, 201);
+}
+
+/* styling the links */
+.container > ul{
+    list-style: none;
+}
+.container > ul > li > a{
+    font-family: 'Kalam';
+    margin-top: 20px;
+    height: 50px;
+    font-size: 150%;
+    color: #2691d9;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.container > ul > li >a:hover{
+    color: #074e7e;
+    text-decoration: underline;
+}
+
+/* adding thw media query */
+@media(max-width : 720px){
+    .container{
+        margin: 90px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        background: #dddcdc;
+        border: none;
+        border-radius: 40px;
+        text-align: center;
+        box-shadow: 6px 6px 10px 0px rgb(41, 191, 211);
+    }
+    .container > h1{
+        font-family: 'Satisfy';
+        font-size: 250%;
+        color: rgb(252, 80, 0);
+        text-decoration: underline solid rgb(63, 63, 63);
+        
+    }
+    .container > h3{
+        font-family: "Macondo";
+        font-size: 150%;
+        color: rgb(9, 85, 104);
+        text-decoration: underline solid rgb(10, 188, 201);
+    }
+    .container > ul{
+        list-style: none;
+    }
+    .container > ul > li > a{
+        font-family: 'Kalam';
+        margin-top: 20px;
+        height: 50px;
+        font-size: 110%;
+        color: #2691d9;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+    }
+    .container > ul > li >a:hover{
+        color: #074e7e;
+        text-decoration: underline;
+    }
+}
+
+/* adding another media query */
+@media(max-width : 540px){
+    .container{
+        margin: 80px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        background: #dddcdc;
+        border: none;
+        border-radius: 40px;
+        text-align: center;
+        box-shadow: 6px 6px 10px 0px rgb(41, 191, 211);
+    }
+    .container > h1{
+        font-family: 'Satisfy';
+        font-size: 160%;
+        color: rgb(255, 38, 0);
+        text-decoration: underline solid rgb(63, 63, 63);
+        
+    }
+    .container > h3{
+        font-family: "Macondo";
+        font-size: 135%;
+        color: rgb(9, 85, 104);
+        text-decoration: underline solid rgb(10, 188, 201);
+    }
+    .container > ul{
+        list-style: none;
+    }
+    .container > ul > li > a{
+        font-family: 'Kalam';
+        margin-top: 20px;
+        height: 50px;
+        font-size: 90%;
+        color: #2691d9;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+    }
+    .container > ul > li >a:hover{
+        color: #074e7e;
+        text-decoration: underline;
+    }
+}

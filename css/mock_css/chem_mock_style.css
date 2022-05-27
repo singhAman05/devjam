@@ -1,0 +1,163 @@
+/* styling the body */
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/exam1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* styling the container */
+.container{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    background: transparent;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+}
+.container > h1 > .mark{
+    color: red;
+    font-family: 'Satisfy';
+}
+.container > h1{
+    text-align: center;
+    font-family: 'Satisfy';
+    color: rgb(22, 218, 218);
+    font-size: 400%;
+    text-decoration: underline solid rgb(9, 114, 70);
+}
+.container > p{
+    font-family: 'Kalam';
+    text-align: center;
+    font-size: 130%;
+    color: rgb(4, 184, 4);
+}
+.container > p > .mvt{
+    color: rgb(87, 250, 11);
+    text-decoration: underline solid;
+}
+
+/* styling the links */
+.container > ul{
+    list-style: none;
+}
+.container > ul > li > a{
+    font-family: 'Kalam';
+    margin-top: 20px;
+    height: 50px;
+    font-size: 150%;
+    color: #00e4f5;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.container > ul > li >a:hover{
+    color: #fded05;
+    text-decoration: underline;
+}
+
+/* adding media query */
+@media(max-width: 704px){
+    .container{
+        margin: 65px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        background: transparent;
+        border: none;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .container > h1 > .mark{
+        color: red;
+        font-family: 'Satisfy';
+    }
+    .container > h1{
+        text-align: center;
+        font-family: 'Satisfy';
+        color: rgb(22, 218, 218);
+        font-size: 300%;
+        text-decoration: underline solid rgb(9, 114, 70);
+    }
+    .container > p{
+        font-family: 'Kalam';
+        text-align: center;
+        font-size: 110%;
+    }
+    .container > p > .mvt{
+        text-decoration: underline solid;
+    }
+    .container > ul{
+        list-style: none;
+    }
+    .container > ul > li > a{
+        font-family: 'Kalam';
+        margin-top: 20px;
+        height: 50px;
+        font-size: 120%;
+        color: #00e4f5;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+    }
+    .container > ul > li >a:hover{
+        text-decoration: underline;
+    }
+}
+
+/* adding another media query */
+@media(max-width: 620px){
+    .container{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        background: transparent;
+        border: none;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .container > h1 > .mark{
+        color: red;
+        font-family: 'Satisfy';
+    }
+    .container > h1{
+        text-align: center;
+        font-family: 'Satisfy';
+        color: rgb(22, 218, 218);
+        font-size: 200%;
+        text-decoration: underline solid rgb(9, 114, 70);
+    }
+    .container > p{
+        font-family: 'Kalam';
+        text-align: center;
+        font-size: 100%;
+    }
+    .container > p > .mvt{
+        text-decoration: underline solid;
+    }
+    .container > ul{
+        list-style: none;
+    }
+    .container > ul > li > a{
+        font-family: 'Kalam';
+        margin-top: 20px;
+        height: 50px;
+        font-size: 110%;
+        color: #00e4f5;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+    }
+    .container > ul > li >a:hover{
+        text-decoration: underline;
+    }
+}

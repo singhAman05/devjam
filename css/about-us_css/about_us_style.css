@@ -1,0 +1,148 @@
+/* styling body */
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* styling the nav bar */
+  .navbar {
+    display: flex;
+    position: sticky;
+    background-color: black;
+  }
+  .nav-list {
+    margin: 1rem;
+  
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-list li {
+    list-style: none;
+  }
+  .nav-list li a {
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .nav-list li a:hover {
+    color: yellow;
+    transition: 0.3s;
+  }
+  .rightnav {
+    margin: 1rem;
+    width: 50%;
+    text-align: right;
+  }
+
+  /* styling the about section */
+  .about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+  
+    height: 20rem;
+    width: 100%;
+    border-color: red;
+    border: solid;
+  }
+  .about h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .about p {
+    margin: 2rem;
+    color: black;
+    font-size: 2rem;
+  }
+  .abt {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    width: 100%;
+    height: 30rem;
+  }
+  
+  /* styling the 4 cards */
+  .abt .Aman {
+    width: 20%;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    transition: all .2s ease-in-out; 
+  
+    z-index: 2;
+  }
+  .abt .Aman img {
+    height: 15rem;
+    width: 100%;
+  }
+  .abt .Archit {
+    width: 20%;
+    transition: all .2s ease-in-out; 
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    z-index: 2;
+  }
+  .abt .Archit img {
+    height: 17rem;
+    width: 100%;
+  }
+  
+  .abt .Jahnavi {
+    width: 20%;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    transition: all .2s ease-in-out; 
+  
+    z-index: 2;
+  }
+  .abt .Jahnavi img {
+    height: 13rem;
+    width: 100%;
+  }
+  .abt .Aviral {
+    width: 20%;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    transition: all .2s ease-in-out; 
+  
+    z-index: 2;
+  }
+  .abt .Aviral:hover{
+      transform: scale(1.1); 
+  }
+  .abt .Aman:hover{
+      transform: scale(1.1); 
+  }
+  .abt .Archit:hover{
+      transform: scale(1.1); 
+  }
+  .abt .Jahnavi:hover{
+      transform: scale(1.1); 
+  }
+  .abt .Aviral img {
+    height: 13rem;
+    width: 100%;
+  }
+  .abt h1 {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 1.5rem;
+  }
+  .abt p {
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-size: larger;
+    color: blue;
+  }
+  .abt {
+    margin: 2rem;
+    overflow-wrap: break-word;
+  }
+/* end of code */

@@ -1,0 +1,139 @@
+/* styling the body */
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/lect1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* styling the container */
+.container{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    background: transparent;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    
+}
+.container > h1{
+    font-family: 'Satisfy';
+    font-size: 400%;
+    color: rgb(218, 188, 17);
+    text-decoration: underline solid rgb(8, 216, 130);
+    
+}
+.container > h3{
+    font-family: "Macondo";
+    font-size: 250%;
+    color: rgb(226, 39, 14);
+}
+.container > ul{
+    list-style: none;
+}
+
+/* styling the links of lectures */
+.container > ul > li > a{
+    font-family: 'Kalam';
+    margin-top: 20px;
+    height: 50px;
+    font-size: 200%;
+    color: #01eeff;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.container > ul > li >a:hover{
+    color: #0bf32a;
+    text-decoration: underline;
+    transition: .3s ease-in;
+}
+
+/* adding media query */
+@media(max-width : 720px){
+    .container{
+        margin: 90px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        background: transparent;
+        border: none;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .container > h1{
+        font-family: 'Satisfy';
+        font-size: 250%;
+        
+        
+    }
+    .container > h3{
+        font-family: "Macondo";
+        font-size: 150%;
+        
+    }
+    .container > ul{
+        list-style: none;
+    }
+    .container > ul > li > a{
+        font-family: 'Kalam';
+        margin-top: 20px;
+        height: 50px;
+        font-size: 200%;
+        color: #2691d9;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+    }
+    .container > ul > li >a:hover{
+        color: #074e7e;
+        text-decoration: underline;
+    }
+}
+
+/* adding another media query */
+@media(max-width : 540px){
+    .container{
+        margin: 80px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        background: transparent;
+        border: none;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .container > h1{
+        font-family: 'Satisfy';
+        font-size: 200%;
+    }
+    .container > h3{
+        font-family: "Macondo";
+        font-size: 135%;
+    }
+    .container > ul{
+        list-style: none;
+    }
+    .container > ul > li > a{
+        font-family: 'Kalam';
+        margin-top: 20px;
+        height: 50px;
+        font-size: 180%;
+        color: #2691d9;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+    }
+    .container > ul > li >a:hover{
+        color: #074e7e;
+        text-decoration: underline;
+    }
+}

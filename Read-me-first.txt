@@ -1,0 +1,13 @@
+//console.log("Adios my friend")
+
+//This is tutorial to access the website that is made by me and my friends...:)
+
+//First of all you should have a Xampp server installed in your computer and "Apache" and "Mysql" must be turned on..
+Then place this whole folder in your Xampp -> htdocs ...
+from there you will be able the whole website frontend and backend both ...if you just open it brower  than u will only access the frontend..
+
+//index.html is the Home page of our website..
+
+//Hope you like our work....:))
+
+//console.log("au revoir")....
